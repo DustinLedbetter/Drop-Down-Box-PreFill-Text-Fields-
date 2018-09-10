@@ -1,0 +1,38 @@
+<!--God First-->
+<!--
+Author: Dustin Ledbetter
+Date: 9/10/2018
+Purpose: This a javascript function that is called when a dropdown box choice is made 
+		 and then fills text fields based on the choice made
+-->
+
+<html>
+	<body>
+		
+		<form id="dropDownBox" name="location_dropdown">
+				<select id="dropDownChoice" onchange="updateText('dropDownChoice')">
+					<option value=""></option>
+					<option value="Texas">Texas</option>
+					<option value="Florida">Florida</option>
+					<option value="New York">New York</option>
+				</select>
+				<br />
+				<br />
+				<br />
+				<input type="text" value="" id="location1" />
+				<br />
+				<input type="text" value="" id="address1" />
+				<br />		
+				<input type="text" value="" id="address2" /> 
+				<br />
+				<input type="text" value="" id="city" />
+				<br />
+				<input type="text" value="" id="state" /> 
+				<br />
+				<input type="text" value="" id="zip" /> 
+		</form>
+		
+		<script src="DropDownBox.js"></script>
+			
+	</body>
+</html>
